@@ -1,0 +1,12 @@
+{
+  "name": "linkgicorada",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "gicorada",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "http": "^0.0.1-security"
+  }
+}
