@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
   res.status(200).send('Hello, world! This link redirect URL is working.');
 });
 
-// Utilities
+// Programming
 app.get('/gh', (req, res) => {
   res.redirect('https://github.com/gicorada');
 });
@@ -32,6 +32,18 @@ app.get('/lore', (req, res) => {
   res.redirect('https://lore.livellosegreto.it/user/gicorada');
 });
 
+app.get('/ln', (req, res) => {
+  res.redirect('https://www.linkedin.com/in/giacomo-r-17642529a/');
+});
+
+app.get('/spot', (req, res) => {
+  res.redirect('https://open.spotify.com/user/lfh2p1v840ncm672k7l0pdch1');
+});
+
+app.get('/yt', (req, res) => {
+  res.redirect('https://www.youtube.com/@gicorada');
+});
+
 
 // Chat
 app.get('/matrix', (req, res) => {
@@ -44,6 +56,50 @@ app.get('/tg', (req, res) => {
 
 app.get('/mail', (req, res) => {
   res.redirect('mailto:gradaellig@protonmail.com');
+});
+
+
+// TakeBy
+app.get('/tkby', (req, res) => {
+  res.redirect('https://takeby.it');
+});
+
+app.get('/tkbydev', (req, res) => {
+  res.redirect('https://dev.takeby.it');
+});
+
+
+// Books, Heart and Brain
+app.get('/bhb', (req, res) => {
+  res.redirect('https://booksheartbrain.it');
+});
+
+app.get('/bhb/lore', (req, res) => {
+  res.redirect('https://lore.livellosegreto.it/user/booksheartbrain');
+});
+
+app.get('/bhb/mstdn', (req, res) => {
+  res.redirect('https://livellosegreto.it/@booksheartbrain');
+});
+
+app.get('/bhb/podcast', (req, res) => {
+  res.redirect('https://funkwhale.it/channels/paperbrains');
+});
+app.get('/bhb/paperbrains', (req, res) => {
+  res.redirect('https://funkwhale.it/channels/paperbrains');
+});
+
+
+// Misc / Utilities
+app.get('/sipari', (req, res) => {
+  res.redirect('https://sipariaperti.it');
+});
+
+app.get('/site', (req, res) => {
+  res.redirect('https://gicorada.com');
+});
+app.get('/gicorada', (req, res) => {
+  res.redirect('https://gicorada.com');
 });
 
 
