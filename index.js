@@ -102,6 +102,10 @@ app.get('/gicorada', (req, res) => {
   res.redirect('https://gicorada.com');
 });
 
+app.get('/scaletta', (req, res) => {
+  res.redirect('https://thinkpad-l16.tailb9df2.ts.net/');
+})
+
 
 
 
