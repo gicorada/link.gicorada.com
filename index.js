@@ -104,9 +104,11 @@ app.get('/gicorada', (req, res) => {
 
 app.get('/scaletta', (req, res) => {
   res.redirect('https://thinkpad-l16.tailb9df2.ts.net/');
-})
+});
 
-
+app.get('/nextfestival2026', (req, res) => {
+  res.redirect('https://gicorada.com/assets/Presentazione_next.pdf);
+});
 
 
 const port = process.env.PORT || 3000;
