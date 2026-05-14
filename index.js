@@ -107,7 +107,7 @@ app.get('/scaletta', (req, res) => {
 });
 
 app.get('/nextfestival2026', (req, res) => {
-  res.redirect('https://gicorada.com/assets/Presentazione_next.pdf);
+  res.redirect('https://gicorada.com/assets/Presentazione_next.pdf');
 });
 
 
